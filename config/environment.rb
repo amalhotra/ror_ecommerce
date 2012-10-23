@@ -2,7 +2,7 @@
 require File.expand_path('../application', __FILE__)
 require File.expand_path('../../lib/printing/invoice_printer', __FILE__)
 
-Paperclip.options[:command_path] = "/usr/local/bin"
+#Paperclip.options[:command_path] = "/usr/local/bin"
 
 # Initialize the rails application
 Hadean::Application.initialize!
